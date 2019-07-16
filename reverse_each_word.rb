@@ -3,7 +3,8 @@ string = "Hello there, and how are you"
 def reverse_each_word(string)
 string.split("")
 newarray = []
-newarray = string.each {
+newarray = string.each { |string| string.reverse}
+
 end
 
   
